@@ -23,7 +23,7 @@ View real-time weather information, including temperature, wind speed, and weath
 Clone the repository:
 bash
 Copy code
-git clone https://github.com/videhwarade/climate-tracker.git
+git clone https://github.com/videhwarade/Climate_Tracker.git
 Open index.html in your browser to use the app.
 
 # Contribution
