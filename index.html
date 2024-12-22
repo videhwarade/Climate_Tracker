@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="forecast-container">
+        <div class="forecast-box">
+            <h1 class="main-heading">Current Climate</h1>
+            <input type="text" id="city-input" placeholder="Enter City Name" class="input-box" />
+            <button onclick="fetchWeather()" class="search-btn">Get Forecast</button>
+
+            <div class="weather-details" id="weather-details">
+                <h2 id="location-name"></h2>
+                <p id="temp" class="highlight-text"></p>
+                <p id="weather-description"></p>
+                <p id="humidity-info">Humidity: <span id="humidity-percentage"></span></p>
+                <p id="wind-speed">Wind: <span id="wind-velocity"></span></p>
+                <p id="weather-symbol" class="emoji-display"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
